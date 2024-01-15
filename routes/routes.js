@@ -73,5 +73,36 @@ routes.get('/SignIn',(req,res)=>{
             res.status(500).send('Internal Server Error');
         }
       });
+//.......................Booking Section.................................
+      routes.get('/Book', async (req, res) => { 
+        res.render('Booking');
+      });
+
+
+
+
+routes.post('/BookAHall', async (req, res) => {
+    try {
+        const{name,email,location,date,time}=req.body;
+       const  newBooking=new BookAHall({
+        name,
+        email,
+        location,
+        date,
+        time
+  
+      })  
+      const val=await newBooking.save();
+      console.log(val);
+       const message="Booked,thanks for your patronage!:)";
+       res.render('Booking',{messages:message, color:"green"});
+    } catch (error) {
+      console.log(error);
+      res.status(500).send('Internal Server Error');
+    }
+  });
+
+
+
 
 module.exports = routes;
