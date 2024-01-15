@@ -1,6 +1,7 @@
 const express = require('express');
 const routes = express.Router();
 const SignIN = require('../mongo/models/signin/signIn.js');
+const BookAHall = require('../mongo/models/booking/booking.js');
 
 
 
@@ -42,6 +43,35 @@ routes.get('/SignIn',(req,res)=>{
     
     
 
-
+    routes.get('/login', (req, res) => {
+        res.render('Log-in');
+      });
+      
+      routes.post('/loginsite', async (req, res) => {
+        try {
+            const LoginDetails = await SignIN.find();
+           const result= LoginDetails.filter((details)=>{
+            return req.body.password===details.password
+            })
+             console.log(result);
+          
+      
+            if (result==0 || result== []) {
+                const message = "You are not a member of this site, sign up here";
+                return res.render('Sign-in', { messages: message, color: "red" });
+            }
+      
+            // Check if password matches (you need to implement password comparison logic)
+            // For simplicity, assuming password comparison function is named comparePasswords
+            // Replace this with your actual logic.
+      
+            // If the email and password are correct, render the HomeView
+             res.render('Homepage', { message:result});
+      
+        } catch (error) {
+            console.log(error);
+            res.status(500).send('Internal Server Error');
+        }
+      });
 
 module.exports = routes;
