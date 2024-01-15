@@ -1,29 +1,28 @@
 const express = require('express');
-const app = express();
 const bodyParser = require('body-parser');
+const connectDB = require('./mongo/connect.js');
 const morgan = require('morgan');
+const methodOverride = require('method-override');
+const Logmarkup = require('./routes/routes.js');
 
-
-app.use(bodyParser.urlencoded({ extended: true }));
-//app.use(methodOverride('_method'));
-app.set('views', __dirname + '/views');
-app.set('view engine', 'jsx');
-app.engine('jsx', require('express-react-views').createEngine());
+const app = express();
+// Middleware
 app.use(morgan('tiny'));
+app.use(methodOverride('_method'));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 
+// View Engine
+app.set('view engine', 'jsx');
+app.engine('jsx', require('express-react-views').createEngine());
 
+// Routes
+app.use('/Elle', Logmarkup);
 
-app.get('/Sign-In', (req, res) => {
-    res.render('Sign-In');
-  });
-
-  app.get('/Log-In', (req, res) => {
-    res.render('Log-In');
-  });
-  
-  
-  const PORT = process.env.PORT || 3000;
-  app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-  });
+// Database Connection
+connectDB();
+// Server Setup
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
