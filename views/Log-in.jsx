@@ -19,8 +19,8 @@ export default function Login({messages, color}) {
       display: 'flex',
       justifyContent: 'space-around',
       listStyle: 'none',
-      fontSize:'xx-large',
-      fontFamily:'Arial',
+      fontSize:'large',
+      fontFamily:'Georgia',
       color:'white',
     },
     sectionContainer: {
@@ -158,10 +158,11 @@ export default function Login({messages, color}) {
     <header style={{...styles.HeroNav,...mediaQuerystylesMobile.HeroNav}} className="hero-nav">
       <nav style={styles.HeaderNav}>
         <ul style={{...styles.Navul,...mediaQuerystylesMobile.Navul}}>
-          <li><img src="" alt="none" /> dericol flowers</li>
-          <li>about us</li>
-          <li>what we stand for</li>
-          <li>Drop a comment</li>
+          <li><a style={{textDecoration:'none',color: 'white'}}href="/Elle"><img style={{height: '30px', width: '30px'}} src="https://img.freepik.com/free-vector/beautiful-home_24877-50819.jpg" alt="none" /> Elles Bookings</a></li>
+          <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/AboutUs">About us</a></li>
+          <li> <a style={{textDecoration:'none',color: 'black'}}href="/Elle/login">Log In</a></li>
+          <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/SignIn">Sign In</a></li>
+          <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/login">Log Out</a></li>
         </ul>
       </nav>
     </header>

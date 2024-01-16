@@ -40,7 +40,9 @@ routes.get('/SignIn',(req,res)=>{
         return res.status(500).render('Sign-in', { messages: message });
     }
     });
-    
+    routes.get('/AboutUs', (req, res) => {
+        res.render('AboutUs');
+      });
     
 
     routes.get('/login', (req, res) => {
