@@ -169,7 +169,7 @@ export default function Login({messages, color}) {
     <section style={{...styles.section,...mediaQuerystylesMobile.section}} >
     <section>
     <div>
-    <h2 style={{ ...styles.subconched, fontFamily: 'Arial', fontSize: '50px' }}>Log in</h2>
+    <h2 style={{ ...styles.subconched, fontFamily: 'Arial', fontSize: '50px' }}>Log In Here!</h2>
     <h3 style={{ color: color, textAlign: 'center' }}>{messages}</h3>
     <div class="form-container">
         <form style={{ ...styles.form }} action="/Elle/BookAHall" method='post'>
