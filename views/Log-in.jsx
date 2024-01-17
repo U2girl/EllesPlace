@@ -158,11 +158,12 @@ export default function Login({messages, color}) {
     <header style={{...styles.HeroNav,...mediaQuerystylesMobile.HeroNav}} className="hero-nav">
       <nav style={styles.HeaderNav}>
         <ul style={{...styles.Navul,...mediaQuerystylesMobile.Navul}}>
-          <li><a style={{textDecoration:'none',color: 'white'}}href="/Elle"><img style={{height: '30px', width: '30px'}} src="https://img.freepik.com/free-vector/beautiful-home_24877-50819.jpg" alt="none" /> Elles Bookings</a></li>
+          <li><a style={{textDecoration:'none',color: 'white'}}href="/Elle"><img style={{height: '30px', width: '30px'}} src="https://img.freepik.com/free-vector/beautiful-home_24877-50819.jpg" alt="none" /> Elle's Place</a></li>
           <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/AboutUs">About us</a></li>
-          <li> <a style={{textDecoration:'none',color: 'dark purple'}}href="/Elle/login">Log In</a></li>
-          <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/SignIn">Sign In</a></li>
+          <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/login">Log In</a></li>
+          <li> <a style={{textDecoration:'none',color: 'dark purple'}}href="/Elle/SignIn">Sign In</a></li>
           <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/login">Log Out</a></li>
+          <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/bookedhalls">Book Hall</a></li>
         </ul>
       </nav>
     </header>
@@ -171,7 +172,7 @@ export default function Login({messages, color}) {
     <section style={{...styles.section,...mediaQuerystylesMobile.section}} >
     <section>
         <div>
-        <h2 style={{...styles.subconched,fontFamily:'',fontSize:'50px'}}>Log in</h2>
+        <h2 style={{...styles.subconched,fontFamily:'',fontSize:'50px'}}>Log In Here!</h2>
             <h3 style={{color:color,textAlign:'center'}}> {messages}</h3>
          <div class="form-container">
             <form style={{...styles.form}} action="/Elle/loginsite" method='post'>

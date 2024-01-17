@@ -176,11 +176,12 @@ return (
     <header style={{...styles.HeroNav,...mediaQuerystylesMobile.HeroNav}} className="hero-nav">
       <nav style={styles.HeaderNav}>
         <ul style={{...styles.Navul,...mediaQuerystylesMobile.Navul}}>
-      <li>  <a style={{textDecoration:'none',color: 'white'}}href="/Elle"><img style={{height: '30px', width: '30px'}} src="https://img.freepik.com/free-vector/beautiful-home_24877-50819.jpg" alt="none" /> Elle's Place</a></li>
+          <li><a style={{textDecoration:'none',color: 'white'}}href="/Elle"><img style={{height: '30px', width: '30px'}} src="https://img.freepik.com/free-vector/beautiful-home_24877-50819.jpg" alt="none" /> Elle's Place</a></li>
           <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/AboutUs">About us</a></li>
           <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/login">Log In</a></li>
-          <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/SignIn">Sign In</a></li>
+          <li> <a style={{textDecoration:'none',color: 'dark purple'}}href="/Elle/SignIn">Sign In</a></li>
           <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/login">Log Out</a></li>
+          <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/bookedhalls">Book Hall</a></li>
         </ul>
       </nav>
     </header>
@@ -205,34 +206,7 @@ return (
     <section style={{...styles.section,...mediaQuerystylesMobile.section}} >
        <div style={{...styles.textContent,...styles.sectionContainerintro}}>
         <h2 style={{...styles.header}}> The Canopy Room</h2> 
-       <p style={{...styles.paragraph}}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-         tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-          esse ducimus quos possimus qui ullam, voluptatum eligendi
-           quo quia? Consectetur, obcaecati!
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-           tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-            esse ducimus quos possimus qui ullam, voluptatum eligendi
-             quo quia? Consectetur, obcaecati!
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-             tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-              esse ducimus quos possimus qui ullam, voluptatum eligendi
-               quo quia? Consectetur, obcaecati!
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-               tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                esse ducimus quos possimus qui ullam, voluptatum eligendi
-                 quo quia? Consectetur, obcaecati!
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                 tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                  esse ducimus quos possimus qui ullam, voluptatum eligendi
-                   quo quia? Consectetur, obcaecati!
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                   tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                    esse ducimus quos possimus qui ullam, voluptatum eligendi
-                     quo quia? Consectetur, obcaecati!
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                     tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                      esse ducimus quos possimus qui ullam, voluptatum eligendi
-                       quo quia? Consectetur, obcaecati!
+       <p style={{...styles.paragraph}}> Perfect for company meetings, presentations, lectures, religious sermons and retreats, large team building events, gaming groups, large classes, group discussions, small fitness or yoga classes, club meetings and much more. Our medium sized meeting rooms provide the perfect space to accommodate up to 70 guests. If you’d like help arranging your meeting room in Columbus, then be sure to ask us how we can help you setup your meeting space. 
                        
 
         </p>
@@ -249,34 +223,7 @@ return (
     <section style={{...styles.section,...mediaQuerystylesMobile.section}} >
        <div style={{...styles.textContent,...styles.sectionContainerintro}}>
         <h2 style={{...styles.header}}> The Glass Room</h2> 
-       <p style={{...styles.paragraph}}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-         tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-          esse ducimus quos possimus qui ullam, voluptatum eligendi
-           quo quia? Consectetur, obcaecati!
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-           tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-            esse ducimus quos possimus qui ullam, voluptatum eligendi
-             quo quia? Consectetur, obcaecati!
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-             tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-              esse ducimus quos possimus qui ullam, voluptatum eligendi
-               quo quia? Consectetur, obcaecati!
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-               tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                esse ducimus quos possimus qui ullam, voluptatum eligendi
-                 quo quia? Consectetur, obcaecati!
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                 tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                  esse ducimus quos possimus qui ullam, voluptatum eligendi
-                   quo quia? Consectetur, obcaecati!
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                   tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                    esse ducimus quos possimus qui ullam, voluptatum eligendi
-                     quo quia? Consectetur, obcaecati!
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                     tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                      esse ducimus quos possimus qui ullam, voluptatum eligendi
-                       quo quia? Consectetur, obcaecati!
+       <p style={{...styles.paragraph}}> Perfect for job fairs, political conventions, trade shows, awards celebrations, large lectures, casino events, town hall meetings, religious sermons and retreats, large fitness or yoga classes and much more. If you have any questions about the availability of our meeting rooms, then be sure to contact us to find out if the combined meeting rooms are available.
                        
 
         </p>
@@ -294,34 +241,7 @@ return (
     <section style={{...styles.section,...mediaQuerystylesMobile.section}} >
        <div style={{...styles.textContent,...styles.sectionContainerintro}}>
         <h2 style={{...styles.header}}> The Pastel Room</h2> 
-       <p style={{...styles.paragraph}}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-         tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-          esse ducimus quos possimus qui ullam, voluptatum eligendi
-           quo quia? Consectetur, obcaecati!
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-           tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-            esse ducimus quos possimus qui ullam, voluptatum eligendi
-             quo quia? Consectetur, obcaecati!
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-             tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-              esse ducimus quos possimus qui ullam, voluptatum eligendi
-               quo quia? Consectetur, obcaecati!
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-               tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                esse ducimus quos possimus qui ullam, voluptatum eligendi
-                 quo quia? Consectetur, obcaecati!
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                 tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                  esse ducimus quos possimus qui ullam, voluptatum eligendi
-                   quo quia? Consectetur, obcaecati!
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                   tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                    esse ducimus quos possimus qui ullam, voluptatum eligendi
-                     quo quia? Consectetur, obcaecati!
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                     tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                      esse ducimus quos possimus qui ullam, voluptatum eligendi
-                       quo quia? Consectetur, obcaecati!
+       <p style={{...styles.paragraph}}> Perfect for job fairs, political conventions, trade shows, awards celebrations, large lectures, casino events, town hall meetings, religious sermons and retreats, large fitness or yoga classes and much more. If you have any questions about the availability of our meeting rooms, then be sure to contact us to find out if the combined meeting rooms are available.
                        
 
         </p>
@@ -339,34 +259,7 @@ return (
     <section style={{...styles.section,...mediaQuerystylesMobile.section}} >
        <div style={{...styles.textContent,...styles.sectionContainerintro}}>
         <h2 style={{...styles.header}}> The Swan Room</h2> 
-       <p style={{...styles.paragraph}}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-         tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-          esse ducimus quos possimus qui ullam, voluptatum eligendi
-           quo quia? Consectetur, obcaecati!
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-           tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-            esse ducimus quos possimus qui ullam, voluptatum eligendi
-             quo quia? Consectetur, obcaecati!
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-             tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-              esse ducimus quos possimus qui ullam, voluptatum eligendi
-               quo quia? Consectetur, obcaecati!
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-               tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                esse ducimus quos possimus qui ullam, voluptatum eligendi
-                 quo quia? Consectetur, obcaecati!
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                 tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                  esse ducimus quos possimus qui ullam, voluptatum eligendi
-                   quo quia? Consectetur, obcaecati!
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                   tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                    esse ducimus quos possimus qui ullam, voluptatum eligendi
-                     quo quia? Consectetur, obcaecati!
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                     tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                      esse ducimus quos possimus qui ullam, voluptatum eligendi
-                       quo quia? Consectetur, obcaecati!
+       <p style={{...styles.paragraph}}> Perfect for job fairs, political conventions, trade shows, awards celebrations, large lectures, casino events, town hall meetings, religious sermons and retreats, large fitness or yoga classes and much more. If you have any questions about the availability of our meeting rooms, then be sure to contact us to find out if the combined meeting rooms are available.
                        
 
         </p>
@@ -384,34 +277,7 @@ return (
     <section style={{...styles.section,...mediaQuerystylesMobile.section}} >
        <div style={{...styles.textContent,...styles.sectionContainerintro}}>
         <h2 style={{...styles.header}}> The Polaris Room</h2> 
-       <p style={{...styles.paragraph}}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-         tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-          esse ducimus quos possimus qui ullam, voluptatum eligendi
-           quo quia? Consectetur, obcaecati!
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-           tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-            esse ducimus quos possimus qui ullam, voluptatum eligendi
-             quo quia? Consectetur, obcaecati!
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-             tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-              esse ducimus quos possimus qui ullam, voluptatum eligendi
-               quo quia? Consectetur, obcaecati!
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-               tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                esse ducimus quos possimus qui ullam, voluptatum eligendi
-                 quo quia? Consectetur, obcaecati!
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                 tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                  esse ducimus quos possimus qui ullam, voluptatum eligendi
-                   quo quia? Consectetur, obcaecati!
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                   tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                    esse ducimus quos possimus qui ullam, voluptatum eligendi
-                     quo quia? Consectetur, obcaecati!
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                     tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                      esse ducimus quos possimus qui ullam, voluptatum eligendi
-                       quo quia? Consectetur, obcaecati!
+       <p style={{...styles.paragraph}}> Perfect for job fairs, political conventions, trade shows, awards celebrations, large lectures, casino events, town hall meetings, religious sermons and retreats, large fitness or yoga classes and much more. If you have any questions about the availability of our meeting rooms, then be sure to contact us to find out if the combined meeting rooms are available.
                        
 
         </p>

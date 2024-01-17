@@ -178,12 +178,12 @@ export default function update({myComments}) {
         <header style={{...styles.HeroNav,...mediaQuerystylesMobile.HeroNav}} className="hero-nav">
       <nav style={styles.HeaderNav}>
         <ul style={{...styles.Navul,...mediaQuerystylesMobile.Navul}}>
-          <li><a style={{textDecoration:'none',color: 'white'}}href="/Elle"><img style={{height: '30px', width: '30px'}} src="https://img.freepik.com/free-vector/beautiful-home_24877-50819.jpg" alt="none" /> Elles Bookings</a></li>
+          <li><a style={{textDecoration:'none',color: 'white'}}href="/Elle"><img style={{height: '30px', width: '30px'}} src="https://img.freepik.com/free-vector/beautiful-home_24877-50819.jpg" alt="none" /> Elle's Place</a></li>
           <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/AboutUs">About us</a></li>
           <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/login">Log In</a></li>
           <li> <a style={{textDecoration:'none',color: 'dark purple'}}href="/Elle/SignIn">Sign In</a></li>
           <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/login">Log Out</a></li>
-          <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/bookedhalls">Booked Halls</a></li>
+          <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/bookedhalls">Booked Hall</a></li>
         </ul>
       </nav>
     </header>
@@ -194,7 +194,7 @@ export default function update({myComments}) {
             <div>
             <div>
 
-        <h1 style={{ fontFamily:'Garamond',fontSize:'xx-large',textAlign:'center'}}>Booked Halls</h1>
+        <h1 style={{ fontFamily:'Garamond',fontSize:'xx-large',textAlign:'center'}}>Booked Hall</h1>
     <ul style={{listStyle:"none"}}>
   {myComments.map((comment) => (
     <li key={comment._id}>
