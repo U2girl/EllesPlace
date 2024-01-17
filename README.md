@@ -36,3 +36,6 @@ https://onedrive.live.com/edit?id=22D786825150B730!132&resid=22D786825150B730!13
 
 <h2>Deploy</h2>
 https://elles-events.onrender.com/Elle
+
+<h2>Acknowledgements</h2>
+Frank Okolie
