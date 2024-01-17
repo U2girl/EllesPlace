@@ -4,7 +4,7 @@ export default function Login({messages, color}) {
     HeroNav: {
       height: '500px',
       width: 'auto',
-      backgroundImage: 'url("https://images.unsplash.com/photo-1596522354195-e84ae3c98731?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29uZmVyZW5jZSUyMGhhbGx8ZW58MHx8MHx8fDA%3D")',
+      backgroundImage: 'url("https://media.istockphoto.com/id/584573082/photo/wedding-hall-or-other-function-facility-set-for-fine-dining.jpg?s=1024x1024&w=is&k=20&c=3N_VEsZpgLNpYC8QFvBi7FsjEJfDeFJup5c5zBjwqhs=")',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
     },
@@ -19,9 +19,9 @@ export default function Login({messages, color}) {
       display: 'flex',
       justifyContent: 'space-around',
       listStyle: 'none',
-      fontSize:'xx-large',
-      fontFamily:'Arial',
-      color:'white',
+      fontSize:'large',
+      fontFamily:'Georgia',
+      color:'brown',
     },
     sectionContainer: {
       marginTop: '50px',
@@ -155,10 +155,11 @@ export default function Login({messages, color}) {
     <header style={{...styles.HeroNav,...mediaQuerystylesMobile.HeroNav}} className="hero-nav">
       <nav style={styles.HeaderNav}>
         <ul style={{...styles.Navul,...mediaQuerystylesMobile.Navul}}>
-          <li><img src="" alt="none" /> dericol flowers</li>
-          <li>about us</li>
-          <li>what we stand for</li>
-          <li>Drop a comment</li>
+          <li><a style={{textDecoration:'none',color: 'white'}}href="/Elle"><img style={{height: '30px', width: '30px'}} src="https://img.freepik.com/free-vector/beautiful-home_24877-50819.jpg" alt="none" /> Elle's Place</a></li>
+          <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/AboutUs">About us</a></li>
+          <li> <a style={{textDecoration:'none',color: 'dark purple'}}href="/Elle/login">Log In</a></li>
+          <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/SignIn">Sign In</a></li>
+          <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/login">Log Out</a></li>
         </ul>
       </nav>
     </header>
@@ -208,7 +209,7 @@ export default function Login({messages, color}) {
            
         
  <footer style={{...styles.Footer}}>
-    <p style={{...styles.FooterCopyRight}}>&copy; 2024 Your Company</p>
+    <p style={{...styles.FooterCopyRight}}>&copy; 2024 Elle's Place</p>
   </footer>
 
   </div>

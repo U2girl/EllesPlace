@@ -176,7 +176,7 @@ return (
     <header style={{...styles.HeroNav,...mediaQuerystylesMobile.HeroNav}} className="hero-nav">
       <nav style={styles.HeaderNav}>
         <ul style={{...styles.Navul,...mediaQuerystylesMobile.Navul}}>
-      <li>  <a style={{textDecoration:'none',color: 'white'}}href="/Elle"><img style={{height: '30px', width: '30px'}} src="https://img.freepik.com/free-vector/beautiful-home_24877-50819.jpg" alt="none" /> Elles Bookings</a></li>
+      <li>  <a style={{textDecoration:'none',color: 'white'}}href="/Elle"><img style={{height: '30px', width: '30px'}} src="https://img.freepik.com/free-vector/beautiful-home_24877-50819.jpg" alt="none" /> Elle's Place</a></li>
           <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/AboutUs">About us</a></li>
           <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/login">Log In</a></li>
           <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/SignIn">Sign In</a></li>
@@ -188,36 +188,8 @@ return (
   <div style={{...styles.sectionContainer}}>
     <section style={{...styles.section,...mediaQuerystylesMobile.section}} >
        <div style={{...styles.textContent,...styles.sectionContainerintro}}>
-        <h2 style={{...styles.header}}> Have your own flower garden</h2> 
-       <p style={{...styles.paragraph}}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-         tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-          esse ducimus quos possimus qui ullam, voluptatum eligendi
-           quo quia? Consectetur, obcaecati!
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-           tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-            esse ducimus quos possimus qui ullam, voluptatum eligendi
-             quo quia? Consectetur, obcaecati!
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-             tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-              esse ducimus quos possimus qui ullam, voluptatum eligendi
-               quo quia? Consectetur, obcaecati!
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-               tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                esse ducimus quos possimus qui ullam, voluptatum eligendi
-                 quo quia? Consectetur, obcaecati!
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                 tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                  esse ducimus quos possimus qui ullam, voluptatum eligendi
-                   quo quia? Consectetur, obcaecati!
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                   tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                    esse ducimus quos possimus qui ullam, voluptatum eligendi
-                     quo quia? Consectetur, obcaecati!
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                     tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
-                      esse ducimus quos possimus qui ullam, voluptatum eligendi
-                       quo quia? Consectetur, obcaecati!
-                       
+        <h2 style={{...styles.header}}> The Topiary Room</h2> 
+      <p style={{...styles.paragraph}}> Book the Topiary Room for your next event! The Topiary room is our largest meeting space at 3000 square feet. It’s a large open environment with a maximum capacity of 250 guests that can be divided into two sections. The Blossoms room is great for trade shows, job fairs, gaming groups, political conventions, graduations, church and religious events, speaker events for marketing groups and much more. Exhibit space is located directly next to the Edison Room.  All of our meeting rooms offer state the art technology, with high speed wired and wireless internet!                   
 
         </p>
     </div>
@@ -232,7 +204,7 @@ return (
     <div style={{...styles.sectionContainer}}>
     <section style={{...styles.section,...mediaQuerystylesMobile.section}} >
        <div style={{...styles.textContent,...styles.sectionContainerintro}}>
-        <h2 style={{...styles.header}}> Have your own flower garden</h2> 
+        <h2 style={{...styles.header}}> The Canopy Room</h2> 
        <p style={{...styles.paragraph}}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
          tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
           esse ducimus quos possimus qui ullam, voluptatum eligendi
@@ -276,7 +248,7 @@ return (
     <div style={{...styles.sectionContainer}}>
     <section style={{...styles.section,...mediaQuerystylesMobile.section}} >
        <div style={{...styles.textContent,...styles.sectionContainerintro}}>
-        <h2 style={{...styles.header}}> Have your own flower garden</h2> 
+        <h2 style={{...styles.header}}> The Glass Room</h2> 
        <p style={{...styles.paragraph}}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
          tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
           esse ducimus quos possimus qui ullam, voluptatum eligendi
@@ -321,7 +293,7 @@ return (
     <div style={{...styles.sectionContainer}}>
     <section style={{...styles.section,...mediaQuerystylesMobile.section}} >
        <div style={{...styles.textContent,...styles.sectionContainerintro}}>
-        <h2 style={{...styles.header}}> Have your own flower garden</h2> 
+        <h2 style={{...styles.header}}> The Pastel Room</h2> 
        <p style={{...styles.paragraph}}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
          tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
           esse ducimus quos possimus qui ullam, voluptatum eligendi
@@ -366,7 +338,7 @@ return (
     <div style={{...styles.sectionContainer}}>
     <section style={{...styles.section,...mediaQuerystylesMobile.section}} >
        <div style={{...styles.textContent,...styles.sectionContainerintro}}>
-        <h2 style={{...styles.header}}> Have your own flower garden</h2> 
+        <h2 style={{...styles.header}}> The Swan Room</h2> 
        <p style={{...styles.paragraph}}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
          tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
           esse ducimus quos possimus qui ullam, voluptatum eligendi
@@ -411,7 +383,7 @@ return (
     <div style={{...styles.sectionContainer}}>
     <section style={{...styles.section,...mediaQuerystylesMobile.section}} >
        <div style={{...styles.textContent,...styles.sectionContainerintro}}>
-        <h2 style={{...styles.header}}> Have your own flower garden</h2> 
+        <h2 style={{...styles.header}}> The Polaris Room</h2> 
        <p style={{...styles.paragraph}}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
          tempora, assumenda dolorum explicabo totam optio asperiores dolorem voluptates
           esse ducimus quos possimus qui ullam, voluptatum eligendi
@@ -457,7 +429,7 @@ return (
     
 
  <footer style={{...styles.Footer}}>
-    <p style={{...styles.FooterCopyRight}}>&copy; 2024 Your Company</p>
+    <p style={{...styles.FooterCopyRight}}>&copy; 2024 Elle's Place</p>
    
   </footer>
 

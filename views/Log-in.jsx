@@ -4,7 +4,7 @@ export default function Login({messages, color}) {
     HeroNav: {
       height: '500px',
       width: 'auto',
-      backgroundImage: 'url("https://images.unsplash.com/photo-1596522354195-e84ae3c98731?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29uZmVyZW5jZSUyMGhhbGx8ZW58MHx8MHx8fDA%3D")',
+      backgroundImage: 'url("https://plus.unsplash.com/premium_photo-1673467102798-a3cd74727a0c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
     },
@@ -160,7 +160,7 @@ export default function Login({messages, color}) {
         <ul style={{...styles.Navul,...mediaQuerystylesMobile.Navul}}>
           <li><a style={{textDecoration:'none',color: 'white'}}href="/Elle"><img style={{height: '30px', width: '30px'}} src="https://img.freepik.com/free-vector/beautiful-home_24877-50819.jpg" alt="none" /> Elles Bookings</a></li>
           <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/AboutUs">About us</a></li>
-          <li> <a style={{textDecoration:'none',color: 'black'}}href="/Elle/login">Log In</a></li>
+          <li> <a style={{textDecoration:'none',color: 'dark purple'}}href="/Elle/login">Log In</a></li>
           <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/SignIn">Sign In</a></li>
           <li> <a style={{textDecoration:'none',color: 'white'}}href="/Elle/login">Log Out</a></li>
         </ul>
@@ -171,15 +171,15 @@ export default function Login({messages, color}) {
     <section style={{...styles.section,...mediaQuerystylesMobile.section}} >
     <section>
         <div>
-        <h2 style={{...styles.subconched,fontFamily:'Arial',fontSize:'50px'}}>Log in</h2>
+        <h2 style={{...styles.subconched,fontFamily:'',fontSize:'50px'}}>Log in</h2>
             <h3 style={{color:color,textAlign:'center'}}> {messages}</h3>
          <div class="form-container">
             <form style={{...styles.form}} action="/Elle/loginsite" method='post'>
-                <label htmlFor="email">email:</label>
+                <label htmlFor="email">Email:</label>
                 <input type="email"  name="email" placeholder="enter your email" required/>
                 <label htmlFor="password">Password:</label>
                 <input type="password"  name="password" placeholder="enter your password"s required/>
-                <button style={{backgroundColor:'rgb(10, 33, 107)',color:'#fff'}} type="submit">submit</button>
+                <button style={{backgroundColor:'rgb(10, 33, 107)',color:'#fff'}} type="submit">Submit</button>
             </form>
          </div>
          
@@ -189,7 +189,7 @@ export default function Login({messages, color}) {
               
          </div>      
          <footer style={{...styles.Footer}}>
-    <p style={{...styles.FooterCopyRight}}>&copy; 2024 Your Company</p>
+    <p style={{...styles.FooterCopyRight}}>&copy; 2024 Elle's Place</p>
   </footer>
 
   </div>

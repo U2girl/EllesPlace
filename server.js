@@ -4,7 +4,7 @@ const connectDB = require('./mongo/connect.js');
 const morgan = require('morgan');
 const methodOverride = require('method-override');
 const Logmarkup = require('./routes/routes.js');
-
+require('dotenv').config();
 const app = express();
 // Middleware
 app.use(morgan('tiny'));
